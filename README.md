@@ -39,3 +39,36 @@ To run the notebooks locally, follow these steps:
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/Fine-Tuning-BERT-Rating.git
+
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+3. Ensure the dataset is placed in the data/ directory.
+
+## Usage
+
+- Run `data_preprocessing.ipynb` to clean and preprocess the dataset.
+- Run `rating_prediction_modeling.ipynb` to fine-tune the BERT models and evaluate their performance.
+
+## Results
+
+- Achieved a **Mean Absolute Error (MAE)** of 0.45 on the validation set for rating prediction.
+- Demonstrated high performance across different feature configurations.
+
+## Technologies Used
+
+- Python
+- Hugging Face Transformers
+- TensorFlow/Keras
+- Pandas, NumPy, Matplotlib
+
+## Future Work
+
+- Incorporating additional NLP techniques to further enhance model accuracy.
+- Exploring other pre-trained models like GPT or RoBERTa for rating prediction.
+
+## Contributors
+
+- **Benedikt Tremmel** - Master's student in Business Analytics at Nova SBE.
+
