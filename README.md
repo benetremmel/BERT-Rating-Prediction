@@ -1,6 +1,6 @@
 # Fine-Tuning BERT for Rating Prediction from Textual Online Reviews
 
-This repository contains the code and resources for my thesis project: **Fine-Tuning BERT for Rating Prediction from Textual Online Reviews**. The project focuses on predicting movie review ratings using natural language processing (NLP) techniques, leveraging BERT-based models.
+The project focuses on predicting movie review ratings using natural language processing (NLP) techniques, leveraging BERT-based models.
 
 ## Repository Structure
 
