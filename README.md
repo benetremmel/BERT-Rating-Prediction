@@ -4,12 +4,12 @@ This repository contains the code and resources for my thesis project: **Fine-Tu
 
 ## Repository Structure
 
-- **`preprocessing.ipynb`**  
-  This notebook handles data preprocessing tasks such as cleaning, tokenization, and preparing review text for model input.
-
-- **`modeling.ipynb`**  
-  This notebook covers the fine-tuning and evaluation of a BERT model for rating prediction, using both regression and classification approaches.
-
+- **`data_preprocessing.ipynb`**
+  This notebook handles data preprocessing as well as sentiment analysis using a multilingual BERT model (bert-base-multilingual-uncased-sentiment). 
+- **`rating_prediction_modeling.ipynb`**
+  This notebook covers the fine-tuning and evaluation of a BERT model for rating prediction, using regression approaches. It includes experiments with multiple BERT variants, such as Small BERT and BERT Base, to assess their
+  performance and effectiveness.
+  
 ## Project Overview
 
 ### Objective
@@ -17,17 +17,17 @@ The goal is to explore how sentiment polarity and review length influence the pe
 
 ### Key Components
 1. **Data Preprocessing**  
-   - Text cleaning and tokenization.
+   - Text cleaning
+   - Normalization of Ratings
    - Sentiment polarity analysis.
-   - Review length bucketing.
 
 2. **Modeling**  
-   - Fine-tuning BERT for regression and classification tasks.
-   - Evaluating model performance using MAE and accuracy metrics.
+   - Fine-tuning BERT for a regression task.
+   - Evaluating model performance using MAE.
 
 ### Dataset
 - **Source**: Rotten Tomatoes movie reviews dataset.
-- **Size**: Over 700,000 reviews, covering 17,000+ unique movies.
+- **Size**: Over 1M reviews, covering 17,000+ unique movies.
 - **Features**: Review content, ratings, sentiment polarity, word count, etc.
 
 ## Installation
