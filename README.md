@@ -44,7 +44,9 @@ To run the notebooks locally, follow these steps:
    ```bash
    pip install -r requirements.txt
 
-3. Ensure the dataset is placed in the data/ directory.
+3. Collect the data used in this project from Kaggle:
+   [Rotten Tomatoes Movies and Critic Reviews Dataset](https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?resource=download&select=rotten_tomatoes_critic_reviews.csv)
+
 
 ## Usage
 
@@ -53,10 +55,10 @@ To run the notebooks locally, follow these steps:
 
 ## Results
 
-- Achieved a **Mean Absolute Error (MAE)** of 0.45 on the validation set for rating prediction.
+- BERT Base Multi-Feature Model achieved a **Mean Absolute Error (MAE)** of 0.42 on the validation set for rating prediction.
 - Demonstrated high performance across different feature configurations.
 
-## Technologies Used
+## Main Technologies Used
 
 - Python
 - Hugging Face Transformers
