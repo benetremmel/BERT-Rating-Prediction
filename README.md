@@ -17,13 +17,15 @@ The goal is to explore how sentiment polarity and review length influence the pe
 
 ### Key Components
 1. **Data Preprocessing**  
-   - Text cleaning
-   - Normalization of Ratings
-   - Sentiment polarity analysis.
+   - EDA  
+   - Sentiment polarity analysis using **`bert-base-multilingual-uncased-sentiment`**.  
 
 2. **Modeling**  
-   - Fine-tuning BERT for a regression task.
-   - Evaluating model performance using MAE.
+   - Fine-tuning **Small BERT** and **BERT Base** for a regression task.  
+   - Training and evaluation with:  
+     - **Single-feature configuration** (reviews only).  
+     - **Multi-feature configuration** (reviews + additional features).  
+   - Evaluating model performance using **Mean Absolute Error (MAE)**. 
 
 ### Dataset
 - **Source**: Rotten Tomatoes movie reviews dataset.
